@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Webpage" />
+    <title>Cyrus'</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      #text {
+        text-align: center;
+        font-size: 30px;
+      }
+
+      #box {
+        border: 5px dotted black;
+        margin: auto;
+        padding: 3px;
+        height: 100px;
+        width: 120px;
+        align-content: center;
+        box-sizing: border-box;
+        position: relative;
+        overflow: auto;
+      }
+
+      #bg {
+        background-color: lightblue;
+        position: relative;
+      }
+
+      p {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+      }
+
+      #p1 {
+        background-color: orange;
+        position: relative;
+        top: 120px;
+        left: 120px;
+        text-align: center;
+      }
+
+      #p2 {
+        background-color: blue;
+        position: relative;
+        text-align: center;
+      }
+      #p3 {
+        background-color: purple;
+        position: relative;
+        text-align: center;
+      }
+      #p4 {
+        background-color: grey;
+        position: relative;
+        text-align: center;
+      }
+
+      @media (max-width: 768px) {
+        #p1 {
+          width: 50%;
+          height: 50%;
+        }
+        #p2 {
+          width: 50%;
+          height: 50%;
+        }
+        #p3 {
+          width: 50%;
+          height: 50%;
+        }
+        #p4 {
+          width: 50%;
+          height: 50%;
+        }
+      }
+    </style>
+  </head>
+
+  <div id="box"><h1 id="text">Cyrus'</h1></div>
+  <div id="bg">
+    <p id="p1">1</p>
+    <p id="p2">2</p>
+    <p id="p3">3</p>
+    <p id="p4">4</p>
+  </div>
+</html>
