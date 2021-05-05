@@ -40,9 +40,9 @@
   background-color: white;
 }
 
-.dropdown-item{
-}
-
 ul > hr {
   border: 1px solid black;
 }
+
+.btn:focus {
+    background-color: beige;}
