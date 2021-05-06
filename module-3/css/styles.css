@@ -6,7 +6,7 @@
   text-align: left;
   font-weight: bold;
   font-size: 40px;
-  margin: 15px 0 20px 30px;
+  margin: 40px 0 20px 30px;
 }
 
 .navbar-brand {
@@ -36,7 +36,7 @@
 
 .dropdown-menu {
   margin-top: 0px !important;
-  width: 100% !important;
+  width: 101%;
   background-color: white;
 }
 
